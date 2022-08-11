@@ -10,6 +10,7 @@ urlpatterns = [
     path('gallery', views.gallery, name="gallery"),
     path('webteam', views.webteam, name="webteam"),
     path('core2020-21', views.core2020_21, name="core2020_21"),
+    path('core', views.coreTeams, name="coreteams"),
     path('contact', views.contact, name="contact"),
     path('avenir', views.avenir, name="avenir"),
     path('brainstormer', views.brainstormer, name="brainstormer"),

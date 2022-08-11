@@ -710,4 +710,33 @@ body {
 
   }
   
-  
+#myTabs {
+  margin-top: 0px !important;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-tabs > li > a.active
+,.nav-tabs > li > a:hover  {
+  background: #007bff !important;
+  color: #fff !important;
+}
+
+.nav-tabs > li > a {
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 6px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #007bff;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: #ecf5ff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.nav-link {
+  border-top-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+}
