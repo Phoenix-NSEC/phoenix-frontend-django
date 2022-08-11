@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'yowl6n3sp1+y=sd4u!^gk9kdjem(k84(xc!l-a2)faidxsr1^#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['www.phoenixnsec.in', 'phoenixnsec.in', '127.0.0.1']
+ALLOWED_HOSTS = ['www.phoenixnsec.in', 'phoenixnsec.in']
 
 # Application definition
 
