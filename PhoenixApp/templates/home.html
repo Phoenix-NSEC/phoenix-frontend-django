@@ -3,7 +3,7 @@
 {% block head %}
 <meta name="description"
   content="Phoenix has always strived for overall development of an individual, from technical to communication skills of a person by conducting domain-specific forums to interpersonal development by working in a team and taking leadership roles.">
-<link href="{% static '/css/style-home.css' %}" rel="stylesheet">
+<script>document.write("<link href='/static/css/style-home.css?id="+Math.floor(Math.random() * 999999999999)+"' rel='stylesheet'>");</script>
 <title>HOME | PHOENIX</title>
 {% endblock head %}
 
@@ -423,7 +423,7 @@
 
 {% block files %}
 <!-- Template Main JS File -->
-<script src="{% static '/js/main.js' %}"></script>
+<script>document.write("<script src='/static/js/main.js?id="+Math.floor(Math.random() * 999999999999)+"'><\/script>");</script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js">
 </script>
 {% endblock files %}

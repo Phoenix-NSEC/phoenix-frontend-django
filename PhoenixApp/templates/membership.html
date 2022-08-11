@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block head %}
-<link href="{% static '/css/style-membership.css' %}" rel="stylesheet">
+<script>document.write("<link href='/static/css/style-membership.css?id="+Math.floor(Math.random() * 999999999999)+"' rel='stylesheet'>");</script>
 <title>MEMBERSHIP | PHOENIX</title>
 {% endblock head %}
 
@@ -65,6 +65,6 @@
 
 {% block files %}
 <!-- Template Main JS File -->
-<script src="{% static '/js/main.js' %}"></script>
+<script>document.write("<script src='/static/js/main.js?id="+Math.floor(Math.random() * 999999999999)+"'><\/script>");</script>
 
 {% endblock files %}

@@ -2,8 +2,8 @@
 {% load static %}
 {% block head %}
 
-  <link href="{% static '/css/style-blogs.css' %}" rel="stylesheet">
-  <link href="{% static '/css/style-home.css' %}" rel="stylesheet">
+<script>document.write("<link href='/static/css/style-blogs.css?id="+Math.floor(Math.random() * 999999999999)+"' rel='stylesheet'>");</script>
+<script>document.write("<link href='/static/css/style-home.css?id="+Math.floor(Math.random() * 999999999999)+"' rel='stylesheet'>");</script>
   <style>
     .btn-blog{
       padding: 5px 10px;
@@ -76,6 +76,6 @@
 
 {% block files %}
 <!-- Template Main JS File -->
-<script src="{% static '/js/main.js' %}"></script>
+<script>document.write("<script src='/static/js/main.js?id="+Math.floor(Math.random() * 999999999999)+"'><\/script>");</script>
 
 {% endblock files %}
