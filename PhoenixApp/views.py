@@ -101,6 +101,10 @@ def webteam(request):
     return render(request, 'webteam.html', context)
 
 
+def coreTeams(request):
+    context = {"core_page": "active"}
+    return render(request, 'core.html', context)
+
 def core2020_21(request):
     context = {"core_page": "active"}
     return render(request, 'core2020-21.html', context)

@@ -2,8 +2,8 @@
 {% load static %}
 {% block head %}
 
-<link href="{% static '/css/style-club.css' %}" rel="stylesheet">
-<link href="{% static '/css/style.css' %}" rel="stylesheet">
+<script>document.write("<link href='/static/css/style-club.css?id="+Math.floor(Math.random() * 999999999999)+"' rel='stylesheet'>");</script>
+<script>document.write("<link href='/static/css/style.css?id="+Math.floor(Math.random() * 999999999999)+"' rel='stylesheet'>");</script>
 <title>CLUBS | PHOENIX</title>
 {% endblock head %}
 
@@ -80,5 +80,5 @@
 
   {% block files %}
   <!-- Template Main JS File -->
-  <script src="{% static '/js/main.js' %}"></script>
+  <script>document.write("<script src='/static/js/main.js?id="+Math.floor(Math.random() * 999999999999)+"'><\/script>");</script>
   {% endblock files %}
