@@ -27,7 +27,7 @@ SECRET_KEY = 'yowl6n3sp1+y=sd4u!^gk9kdjem(k84(xc!l-a2)faidxsr1^#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.phoenixnsec.in', 'phoenixnsec.in']
+ALLOWED_HOSTS = ['old.phoenixnsec.in']
 
 # Application definition
 
